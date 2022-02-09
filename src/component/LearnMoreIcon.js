@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-function LearnMoreIcon({ children }) {
+function LearnMoreIcon({ className,children }) {
     
   return (
     <Icon className="flex items-center">
-      <a className="text-white-001 hover:text-green-001 cursor-pointer font-medium">
+      <a className={`hover:text-green-001 cursor-pointer font-medium ${className}`}>
         &nbsp; {children}
       </a>
       {/* <Line className="line"></Line> */}

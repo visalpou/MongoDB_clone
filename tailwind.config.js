@@ -17,6 +17,7 @@ module.exports = {
       },
       gray:{
         '001':'#b1c0bc',
+        '002':'#f2f4f3',
       },
       black:{
         '001':'#000',

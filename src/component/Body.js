@@ -10,7 +10,7 @@ function Body() {
             <div className='flex justify-center translate-y-40 space-x-5'>
                 <p className='border bg-green-004 font-medium rounded-md px-2'>NEW</p>
                 <p className='text-white-001'>Introducing native support for time series data —</p>
-                <LearnMoreIcon>Learn more</LearnMoreIcon>
+                <LearnMoreIcon className='text-white-001'>Learn more</LearnMoreIcon>
             </div>
             <Title className='translate-y-40 container mx-auto text-white-001 p-28'>
                 <h1 className='text-7xl'>Buid faster.</h1>

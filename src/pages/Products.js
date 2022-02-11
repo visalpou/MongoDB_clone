@@ -3,7 +3,8 @@ import Body from '../component/Body';
 import BodyTitle from '../component/BodyTitle';
 import BuildFasterIcon from '../component/BuildFasterIcon';
 import CompanyLogo from '../component/CompanyLogo';
-import Fullymanage from '../component/Fullymanage';
+import Fullymangeinthecloud from '../component/Fullymangeinthecloud';
+
 
 function Products() {
   return (
@@ -11,8 +12,8 @@ function Products() {
         <Body/>
         <CompanyLogo/>
         <BodyTitle/>
-        <BuildFasterIcon/>
-        <Fullymanage/>
+        <BuildFasterIcon/>     
+        <Fullymangeinthecloud/>
     </div>
   )
 }

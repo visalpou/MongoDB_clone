@@ -5,7 +5,7 @@ import BtnTryFree from "./BtnTryFree";
 import { MainLogo, SearchIcon } from "./Icons";
 function Header() {
   return (
-    <Nav className="p-7 flex justify-between fixed items-center bg-white-001 w-full">
+    <Nav className="p-7 flex justify-between items-center bg-white-001 w-full sticky">
       <LeftNav className="flex space-x-10 font-medium items-center text-001">
         <Link to="/">
           <MainLogo />

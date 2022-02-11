@@ -17,7 +17,7 @@ function Fullymanage() {
                     <div>
                         <Cloud/>
                         <h6 className='py-10'>Atlast</h6>
-                        <h1 className='py-5 text-3xl font-medium '>Multi-cloud application data platform</h1>
+                        <h1 className='py-5 text-3xl font-medium~~~'>Multi-cloud application data platform</h1>
                         <p className='text-base text-gray-001 font-medium'>An integrated suite of cloud database services that allow you to address a wide variety of use cases, from transactional to analytical, from search to data visualizations.</p>
                         <LearnMoreIcon className='text-black-001 py-5'>Learn More &#8594; </LearnMoreIcon>
                     </div>
@@ -28,7 +28,7 @@ function Fullymanage() {
             </div>
             <div className='border-2 border-gray-002 rounded-3xl p-10 shadow-md'>
                <Phone/>
-               <h6 className='py-10'>Atlast</h6>
+                <h6 className='py-10'>Atlast</h6>
                 <h1 className='py-5 text-3xl font-medium '>Multi-cloud application data platform</h1>
                 <p className='text-base text-gray-001 font-medium'>An integrated suite of cloud database services that allow you to address a wide variety of use cases, from transactional to analytical, from search to data visualizations.</p>
                 <LearnMoreIcon className='text-black-001 py-5'>Learn More &#8594; </LearnMoreIcon>

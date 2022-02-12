@@ -1,37 +1,36 @@
 import React from 'react';
 import { Fragment } from 'react/cjs/react.production.min';
 import styled from 'styled-components';
-import { Cloud, Phone } from './Icons';
 import LearnMoreIcon from './LearnMoreIcon';
 
-function Fullymanage({title,subtitle,icon_title,desc_title,desc}) {
+function Fullymanage({grid,grid_cols,title,subtitle,firsticon,secondicon,icon_title,desc_title,desc, right_div_icon_title, right_div_title, right_div_sub_title,btn_title}) {
   return (
     <Fragment>
         <Title className='text-center py-20'>
             <h1 className='text-5xl mb-5 font-serif'>{title} </h1>
             <p className='text-xl font-medium text-gray-001'> {subtitle} </p>
         </Title>
-        <Grid className='grid grid-cols-3 gap-7 mx-10'>
-            <div className='col-span-2 border-2 border-gray-002 rounded-3xl shadow-md'>
+        <Grid className={` mx-10 ${grid}` }>
+            <div className={ `border-2 border-gray-002 rounded-3xl shadow-md ${grid_cols}`} >
                 <div className='grid grid-cols-2 p-10'>
                     <div>
-                        <Cloud/>
+                        {firsticon}
                         <h6 className='py-10'> {icon_title} </h6>
                         <h1 className='py-5 text-3xl font-medium'> {desc_title} </h1>
                         <p className='text-base text-gray-001 font-medium'> {desc} </p>
-                        <LearnMoreIcon className='text-black-001 py-5'>Learn More &#8594; </LearnMoreIcon>
+                        <LearnMoreIcon className='text-black-001 py-5'>{btn_title} &#8594; </LearnMoreIcon>
                     </div>
                     <div>
-                       <Phone/>
+                       {secondicon}
                     </div>
                 </div>
             </div>
             <div className='border-2 border-gray-002 rounded-3xl p-10 shadow-md'>
-               <Phone/>
-                <h6 className='py-10'>Atlast</h6>
-                <h1 className='py-5 text-3xl font-medium '>Multi-cloud application data platform</h1>
-                <p className='text-base text-gray-001 font-medium'>An integrated suite of cloud database services that allow you to address a wide variety of use cases, from transactional to analytical, from search to data visualizations.</p>
-                <LearnMoreIcon className='text-black-001 py-5'>Learn More &#8594; </LearnMoreIcon>
+                {secondicon}
+                <h6 className='py-10'> {right_div_icon_title} </h6>
+                <h1 className='py-5 text-3xl font-medium'>{right_div_title} </h1>
+                <p className='text-base text-gray-001 font-medium'> {right_div_sub_title} </p>
+                <LearnMoreIcon className='text-black-001 py-5'> {btn_title} &#8594; </LearnMoreIcon>
             </div>
         </Grid>
     </Fragment>

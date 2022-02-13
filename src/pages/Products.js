@@ -5,6 +5,7 @@ import CompanyLogo from '../component/CompanyLogo';
 import FinancalService from '../component/FinancalService';
 import Fullymangeinthecloud from '../component/Fullymangeinthecloud';
 import HeaderCover from '../component/HeaderCover';
+import Footer from '../component/Footer';
 
 function Products() {
   return (
@@ -15,6 +16,7 @@ function Products() {
         <BuildFasterIcon/>     
         <Fullymangeinthecloud/>
         <FinancalService/>
+        <Footer/>
     </div>
   )
 }

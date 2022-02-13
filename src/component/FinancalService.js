@@ -1,10 +1,12 @@
 import React from "react";
 import Body from "./Body";
 
+
 function FinancalService() {
   const data = [
     {
-      box_title: "NEW",
+      text_color:"text-black-001",
+      box_title:"New",
       box_desc: "Introducing native support for time series data —",
       click_title1: "Learn more",
       title_1: "Buid faster.",
@@ -19,6 +21,7 @@ function FinancalService() {
       {data.map((item) => {
         return <Body {...item} />;
       })}
+      
     </div>
   );
 }

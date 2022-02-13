@@ -4,6 +4,8 @@ import Body from './Body'
 function HeaderCover() {
     const data = [
         {
+            text_color:"text-white-001",
+            bg_color:"bg-green-003",
             box_title:"NEW",
             box_desc:"Introducing native support for time series data —",
             click_title1:"Learn more",

@@ -21,7 +21,7 @@ const data =[
 
 function BuildFasterIcon() {
   return(
-      <div className='grid grid-cols-3'>
+      <div className='grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 space-y-3'>
             {data.map((item)=>{
                 return <SubBuildFasterICon {...item} />
             })}

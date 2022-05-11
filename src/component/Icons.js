@@ -20,7 +20,7 @@ export const SearchIcon =()=>{
 }
 
 export const CoverHeader = ()=>{
-    return <svg width="569" height="569" viewBox="0 0 569 569" fill="none" xmlns="http://www.w3.org/2000/svg">
+    return <svg viewBox="0 0 569 569" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M401.84 547.08H377.45" stroke="#001E2B" strokeMiterlimit="10" strokeDasharray="2 2"/>
     <path d="M464.74 31.77V503.83C464.74 516.66 470.27 547.08 437.74 547.08H409.65" stroke="#001E2B" strokeMiterlimit="10" strokeDasharray="2 2"/>
     <path d="M372.94 529.27H321.21" stroke="#001E2B" strokeMiterlimit="10" strokeDasharray="2 2"/>

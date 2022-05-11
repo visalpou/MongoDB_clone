@@ -5,8 +5,8 @@ import { Building, Cloud, People, Phone } from "./Icons";
 
 const data = [
   {
-    grid: "grid grid-cols-3 gap-7",
-    grid_cols: "col-span-2",
+    grid: "grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-7",
+    grid_cols: "lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1",
     title: "Fully managed in the cloud",
     subtitle: "Start in seconds and scale to millions with our cloud services",
     firsticon: <Cloud />,
@@ -21,8 +21,8 @@ const data = [
     btn_title: "Learn more",
   },
   {
-    grid: "grid grid-cols-2 gap-10",
-    grid_cols: " ",
+    grid: "grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-10",
+    grid_cols: "",
     title: "Self-managed in any environment",
     subtitle: "Run MongoDB anywhere, from your laptop to your data center",
     firsticon: <Building />,

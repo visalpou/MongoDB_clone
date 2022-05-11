@@ -12,7 +12,7 @@ function Fullymanage({grid,grid_cols,title,subtitle,firsticon,secondicon,icon_ti
         </Title>
         <Grid className={` mx-10 ${grid}` }>
             <div className={ `border-2 border-gray-002 rounded-3xl shadow-md ${grid_cols}`} >
-                <div className='grid grid-cols-2 p-10'>
+                <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 p-10'>
                     <div>
                         {firsticon}
                         <h6 className='py-10'> {icon_title} </h6>

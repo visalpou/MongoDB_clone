@@ -7,7 +7,7 @@ function HeaderCover() {
             text_color:"text-white-001",
             bg_color:"bg-green-003",
             box_title:"NEW",
-            box_desc:"Introducing native support for time series data —",
+            box_desc:"Introducing native support for time series data",
             click_title1:"Learn more",
             title_1:"Buid faster.",
             title_2:"Build smarter.",

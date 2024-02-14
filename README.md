@@ -1,0 +1,1 @@
+- teaching myself how to build frontend by cloning mongodb
